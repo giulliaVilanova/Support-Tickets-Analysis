@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import os
 
 def load_data(path):
-    # Parse '.' as thousands separator and treat empty strings as NaN.
-    # This converts columns like "error_rate_pct" that appear as "5.451.200.538" into integers.
     df = pd.read_csv(path, thousands='.', na_values=['', 'NaN', 'nan'])
     return df
 

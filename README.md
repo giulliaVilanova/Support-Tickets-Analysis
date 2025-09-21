@@ -79,11 +79,11 @@ python src/main.py
 ## 📈 Etapas / Steps
 
 -   **Exploração dos Dados / Data Exploration** → distribuição de
-    prioridades, análise de variáveis numéricas e categóricas.\
+    prioridades, análise de variáveis numéricas e categóricas.
 -   **Preparação / Preparation** → tratamento de dados ausentes, criação
-    de variáveis derivadas.\
+    de variáveis derivadas.
 -   **Descoberta de Padrões / Pattern Discovery** → comparação entre
-    prioridade e variáveis de negócio.\
+    prioridade e variáveis de negócio.
 -   **Relatório / Report** → principais descobertas e recomendações
     práticas.
 
@@ -91,7 +91,7 @@ python src/main.py
 
 ## 🛠 Tecnologias / Technologies
 
--   Python 3.11+\
--   pandas, numpy\
--   matplotlib, seaborn\
+-   Python 3.11+
+-   pandas, numpy
+-   matplotlib, seaborn
 -   scikit-learn (opcional)

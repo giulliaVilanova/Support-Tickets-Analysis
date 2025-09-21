@@ -1,5 +1,5 @@
 import logging
-from src import exploration, preparation, patterns, insights
+from src import exploration, preparation, patterns, insights, report
 
 logger = logging.getLogger(__name__)
 
@@ -36,6 +36,10 @@ def main():
     logger.info("Gerando insights…")
     insights.run(df, outdir)
     logger.info("Geração de insights concluída")
+
+    logger.info("Gerando report…")
+    report.run(df, outdir)  # <- Etapa 4
+    logger.info("Geração de report concluída")
 
     logger.info("Pipeline finalizado com sucesso")
 
